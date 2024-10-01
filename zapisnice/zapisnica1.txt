@@ -1,0 +1,50 @@
+Zápisnica z prvého stretnutia 
+Utorok 1.10.2024 - 9:00
+
+Prítomní - Matúš Ďurovič, Martin Dzurko, Matej Jančík, Jakub Mucha, Patrik Vinčur
+
+- zoznamovacie kolo
+
+- organizačná štruktúra
+
+- 1. urobiť miniplán, ako si časovo rozvrhnúť prácu
+
+- požiadavka na jednoduchý plugin, ktorý sa jednoducho nainštaluje, naviazané na firmu
+
+- predstava o dizajne?
+	- vytvorenie tlačítka na plugin do hornej lišty
+	- po kliknutí tlačítka plugin odhadne, či ide o potenciálne podozrivý email, alebo legitímny
+	- pridávanie a odoberanie domén, ktoré sú legitímne
+	- IT odd. na starosti pridávanie legitímnych domén
+	- autorizácia používateľov, ktorí môžu odoberať a pridávať legitímne domény
+	- ak chceme real-time komunikáciu so serverom, treba vymyslieť spôsob šifrovania (možnosť aj "predstiahnutia", aby nebolo potrebné komunikovať real-time)
+
+
+- odporúčanie je programovať to dvaja/traja
+
+- vytvoriť mikro web server
+- vymyslieť komunikačný prechod
+
+- 2. zistiť, ako komplikované je naprogramovanie pluginu, (dopredu sme zistili, že je/bolo možné používať JS)
+- 3. pripraviť api na komunikáciu, neskôr sa rozhodneme, či chceme iba cez CMD alebo aj jednoduchú stránku
+- 4. skúsiť pripraviť UML diagram, aká je naša predstava
+- možnosť vymyslenia spracovania requestov - do budúcnosti (zvážiť množstvo trafficu)
+
+- úvaha, či je plugin schopný držať data, synchronizácia +- raz denne
+
+- zamyslieť sa, či chceme nastavenie také, že AV automaticky checkne email, keď príde
+- upozornenie na email z externej domeny
+
+- príde email -> tlačidlo pluginu -> komunikácia na webserver -> overenie voči databáze -> zaslanie odpovede a následné vyhodnotenie
+
+- 5. rozdeliť si úlohy, ideálne +- 2 ľudia na jednu úlohu
+
+do bud. tyzdna:
+- doladit cas stretavania (DONE)
+- vytvoriť časový plán
+- zamyslieť sa nad rozdelením si práce
+
+
+
+
+
