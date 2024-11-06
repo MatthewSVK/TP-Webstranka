@@ -19,9 +19,9 @@ st.download_button('Stiahnuť zápisnicu', data=zapis3, file_name='TP_Zapisnica3
 st.subheader('Zápisnica 4')
 with open('zapisnice/TP_Zapisnica4.pdf', 'rb') as file:
     zapis4 = file.read()
-st.download_button('Stiahnuť zápisnicu', data=zapis3, file_name='TP_Zapisnica3.pdf', mime='application/octet-stream')
+st.download_button('Stiahnuť zápisnicu', data=zapis4, file_name='TP_Zapisnica3.pdf', mime='application/octet-stream')
 
 st.subheader('Zápisnica 5')
 with open('zapisnice/TP_Zapisnica5.pdf', 'rb') as file:
     zapis5 = file.read()
-st.download_button('Stiahnuť zápisnicu', data=zapis3, file_name='TP_Zapisnica3.pdf', mime='application/octet-stream')
+st.download_button('Stiahnuť zápisnicu', data=zapis5, file_name='TP_Zapisnica3.pdf', mime='application/octet-stream')
