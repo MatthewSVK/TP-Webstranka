@@ -10,3 +10,6 @@ Cieľom práce je vyvinúť MS Outlook plugin, ktorý rozpozná a indikuje, či 
 st.subheader('Stránka admin panelu:')
 st.markdown('Odkaz na admin panel je [tu](%s)' % "https://timovy-projekt.polandcentral.cloudapp.azure.com/")
 st.caption('Pre zapnutie stránky, napíšte členom tímu')
+
+st.subheader('Manifest na pridanie pluginu do Outlooku:')
+st.download_button('Stiahnuť manifest', data='', file_name='manifest.xml', mime='application/xml')
