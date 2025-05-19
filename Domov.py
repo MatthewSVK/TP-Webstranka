@@ -12,4 +12,4 @@ st.markdown('Odkaz na admin panel je [tu](%s)' % "https://timovy-projekt.polandc
 st.caption('Pre zapnutie stránky, napíšte členom tímu')
 
 st.subheader('Manifest na pridanie pluginu do Outlooku:')
-st.download_button('Stiahnuť manifest', data='files/manifest_fajnl_2.xml', file_name='manifest.xml', mime='application/xml')
+st.download_button('Stiahnuť manifest', data='files/manifest_fajnl_2.xml', file_name='manifest_fajnl_2.xml', mime='application/xml')
